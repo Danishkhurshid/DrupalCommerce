@@ -1,0 +1,12 @@
+uuid: 29cd709a-cb04-4cf5-b132-d3fec4cda836
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3vA4FKQ1Qu8B1R8UdGPnmMfJrYO6Y6uMqeNgDgXxods
+id: default
+label: Default
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

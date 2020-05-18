@@ -1,0 +1,34 @@
+uuid: 19d054f8-4e54-41d6-a4cd-22bd9e89efff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: '-OGxjOl6mUBXJUN76cXpzO_0ASwcFd7P__-8PaLRCSM'
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+  user_picture:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+    region: content
+hidden:
+  commerce_remote_id: true
+  customer_profiles: true
+  search_api_excerpt: true

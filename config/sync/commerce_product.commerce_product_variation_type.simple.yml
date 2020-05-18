@@ -1,0 +1,13 @@
+uuid: 0eca8b2b-345e-4dfd-a2e8-76508d999b99
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J_Vdud7syQ5fjwKZjL-iTU0D0RaMrTbUhWI2GGhNGiA
+id: simple
+label: Simple
+orderItemType: physical_product_variation
+generateTitle: true
+traits:
+  - purchasable_entity_shippable
+locked: false

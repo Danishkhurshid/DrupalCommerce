@@ -1,0 +1,20 @@
+uuid: 8c6e5d3d-5ed2-4702-8e7e-41a8e90c54df
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart_api
+    - serialization
+    - user
+_core:
+  default_config_hash: WqYdG4xXtHm4Ok5hm8eKZIdWyoZ2icbbjm88ZEWLQXs
+id: commerce_cart_update_item
+plugin_id: commerce_cart_update_item
+granularity: resource
+configuration:
+  methods:
+    - PATCH
+  formats:
+    - json
+  authentication:
+    - cookie

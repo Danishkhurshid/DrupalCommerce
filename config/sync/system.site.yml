@@ -1,0 +1,14 @@
+uuid: 68e0352e-5b7e-4de2-94b0-ccbdf8a0de4d
+name: 'commerce store'
+mail: commercestore@commercestore.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

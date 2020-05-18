@@ -1,0 +1,13 @@
+uuid: 647a3506-5a48-4b85-ab36-767b93f2e9ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: 6gfQWDjHFkJsE2C2ayhUL7x1jBGPgOhr3SGF15Kxy-w
+id: commerce_unpublish_product
+label: 'Unpublish product'
+type: commerce_product
+plugin: commerce_unpublish_product
+configuration: {  }
